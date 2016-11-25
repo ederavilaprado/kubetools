@@ -8,7 +8,7 @@ import "github.com/spf13/cobra"
 // topCmd represents the top command
 var topCmd = &cobra.Command{
 	Use:   "top",
-	Short: "A brief description of your command",
+	Short: "Display resource tops",
 }
 
 func init() {
